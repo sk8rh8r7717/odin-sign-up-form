@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'NorseBold';
+    src: url(/Norse-Bold.otf);
+}
+
+@font-face {
+    font-family: 'NataSans';
+    src: url(/NataSans-Regular.ttf);
+}
+
+body{
+    display: flex;
+    margin: 0;
+}
+
+#image-logo-section {
+    background-image: url('/halie-west-25xggax4bSA-unsplash.jpg');
+    width:33%;
+    background-size: cover;
+}
+
+#form-section {
+    height: 100vh;
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+}
+
+#logo-text-container {
+    background-color: rgba(0, 0, 0, 0.432);
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    margin-top: 20vh;
+}
+
+#odin-logo {
+    width: 5rem;
+}
+
+#logo-text {
+    font-family: NorseBold;
+    color: white;
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+.form-headings {
+    font-size: 25px;
+    font-family: 'NataSans';
+    margin-right: 35%;
+    margin-left: 5%;
+}
+
+.pre-form {
+    margin-left: 5%;
+    margin-right: 35%;
+    margin-top: 10%;
+}
+
+#signup-form {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px #888888;
+}
+
+.form-inputs {
+    margin-left: 5%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: start;
+    justify-content: start;
+}
+
+.input-pair {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 33%;
+}
+
+.input-pair > input {
+    max-width: 15em
+}
