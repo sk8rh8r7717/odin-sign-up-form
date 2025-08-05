@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'NorseBold';
-    src: url(/Norse-Bold.otf);
+    src: url(Norse-Bold.otf);
 }
 
 @font-face {
     font-family: 'NataSans';
-    src: url(/NataSans-Regular.ttf);
+    src: url(NataSans-Regular.ttf);
 }
 
 body{
@@ -14,7 +14,7 @@ body{
 }
 
 #image-logo-section {
-    background-image: url('/halie-west-25xggax4bSA-unsplash.jpg');
+    background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
     width:33%;
     background-size: cover;
 }
