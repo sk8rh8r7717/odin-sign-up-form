@@ -60,26 +60,67 @@ body{
     margin-top: 10%;
 }
 
-#signup-form {
+.form-box {
     background-color: rgb(255, 255, 255);
-    box-shadow: 5px 5px 20px #888888;
+    box-shadow: 0px 10px 15px #888888;
+    padding: 10px;
 }
 
 .form-inputs {
     margin-left: 5%;
     display:flex;
     flex-wrap: wrap;
-    gap: 20px;
-    align-items: start;
-    justify-content: start;
+    flex-direction: row;
 }
 
 .input-pair {
     display: flex;
     flex-direction: column;
-    flex: 1 0 33%;
+    margin-bottom: 1rem;
+    margin-left: 30px;
+}
+
+.input-pair > label {
+    font-family: 'NataSans';
+    letter-spacing: 1px;
+    font-size: 11px;
 }
 
 .input-pair > input {
-    max-width: 15em
+    width: 17em;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px #d8d8d8;
+    font-family: 'NataSans';
+}
+
+.even {
+    margin-right: 40%;
+}
+
+#create-account-btn {
+    background-color: #596D48;
+    color: white;
+    margin-top: 35px;
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 7px;
+    border: solid 0px;
+    font-size: 18px;
+    font-family: 'NataSans';
+}
+
+#login-text {
+    margin-left: 5%;
+    font-size: 16px;
+    font-family: 'NataSans';
+}
+
+#login-text > a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }

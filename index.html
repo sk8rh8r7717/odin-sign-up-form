@@ -20,21 +20,38 @@
             <p class="form-headings">You <i>know</i> you want to.</p>
 
             <form id="signup-form">
-                <p class="form-headings">Let's do this!</p>
-                <div class="form-inputs">
-                    <div class="input-pair">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name">
-                    </div>
-                    <div class="input-pair">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" name="last-name" id="last-name">
-                    </div>
-                    <div class="input-pair">
-                        <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
+                <div class="form-box">
+                    <p class="form-headings">Let's do this!</p>
+                    <div class="form-inputs">
+                        <div class="input-pair">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div>
+                        <div class="input-pair even">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                        <div class="input-pair">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="input-pair even">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+                        <div class="input-pair">
+                            <label for="pass">PASSWORD</label>
+                            <input type="password" name="pass" id="pass">
+                        </div>
+                        <div class="input-pair even">
+                            <label for="conf-pass">CONFIRM PASSWORD</label>
+                            <input type="password" name="conf-pass" id="conf-pass">
+                        </div>
                     </div>
                 </div>
+
+                <button type="submit" id="create-account-btn">Create Account</button>
+                <p id="login-text">Already have an account? <a href="" id="login-link">Log in</a></p>
             </form>
         </div>
     </div>
